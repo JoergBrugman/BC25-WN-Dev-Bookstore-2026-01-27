@@ -14,6 +14,5 @@
     "editor.snippetSuggestions": "bottom",
     "xliffSync.parseFromDeveloperNote": true,
     "xliffSync.parseFromDeveloperNoteOverwrite": true,
-    "al.showHomeAtStartup": "Always"
-
+    "al.showHomeAtStartup": "Always",
 }

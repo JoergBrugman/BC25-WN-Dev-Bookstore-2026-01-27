@@ -2,7 +2,7 @@
   "id": "e08b0233-2914-49ac-a5f8-fadc71a472fb",
   "name": "Bookstore",
   "publisher": "get&use Academy GmbH",
-  "version": "1.0.0.0",
+  "version": "1.2.0.0",
   "brief": "",
   "description": "",
   "privacyStatement": "",
@@ -30,5 +30,9 @@
     "NoImplicitWith"],
   "resourceFolders": [
     "Demo/Ressourcen/Resources"
-  ]
+  ],
+  "source": {
+    "repositoryUrl": "https://github.com/JoergBrugman/BC25-WN-Dev-Bookstore-2026-01-27.git",
+    "commit": "3d7164950dac7b24a02fb718c843b9a2b7269d3f"
+  }
 }
