@@ -41,6 +41,18 @@ page 50101 "BSB Book List"
                 ToolTip = 'Executes the Create Books action.';
                 RunObject = codeunit "BSB Create Books";
             }
+            group(Demo)
+            {
+                Caption = 'Demo WN';
+
+            }
+        }
+        area(Promoted)
+        {
+            group(DemoWN_Promoted)
+            {
+                Caption = 'Demo What''s New';
+            }
         }
     }
 
