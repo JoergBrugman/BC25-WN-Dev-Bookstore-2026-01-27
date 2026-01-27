@@ -27,5 +27,8 @@
   },
   "runtime": "15.0",
   "features": [ 
-    "NoImplicitWith"]
+    "NoImplicitWith"],
+  "resourceFolders": [
+    "Demo/Ressourcen/Resources"
+  ]
 }
