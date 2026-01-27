@@ -1,4 +1,4 @@
-codeunit 50105 "BSB Book Type Paperback Impl." implements "BSB Book Type Process"
+codeunit 50105 "BSB Book Type Paperback Impl." implements "BSB Book Type Process V2"
 {
     procedure StartDeployBook()
     begin
@@ -8,5 +8,10 @@ codeunit 50105 "BSB Book Type Paperback Impl." implements "BSB Book Type Process
     procedure StartDeliverBook()
     begin
         Message('Mit DPD Schneckenpost versenden');
+    end;
+
+    procedure CheckBook()
+    begin
+        Message('Qualitätsprüfung');
     end;
 }

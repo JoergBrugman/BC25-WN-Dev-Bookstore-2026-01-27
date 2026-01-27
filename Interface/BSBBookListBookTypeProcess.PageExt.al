@@ -81,6 +81,8 @@ pageextension 50104 "BSB Book List BookType Process" extends "BSB Book List"
                     begin
                         BSBBookTypeProcess := Rec.Type;
                         BSBBookTypeProcess.StartDeployBook();
+                        if BSBBookTypeProcess is "BSB Book Type Process V2" then
+                            (BSBBookTypeProcess as "BSB Book Type Process V2").CheckBook();
                         BSBBookTypeProcess.StartDeliverBook();
                     end;
                 }
