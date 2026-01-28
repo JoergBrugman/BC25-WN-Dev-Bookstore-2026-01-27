@@ -19,6 +19,8 @@ report 50100 "BSB Book - List"
             column(No_BSBBook; "No.") { IncludeCaption = true; }
             column(Description_BSBBook; Description) { IncludeCaption = true; }
             column(Author_BSBBook; Author) { IncludeCaption = true; }
+            column(AuthorProvision_BSBBook; "Author Provision %") { IncludeCaption = true; }
+            column(EditionNo_BSBBook; "Edition No.") { IncludeCaption = true; }
             column(NoofPages_BSBBook; "No. of Pages") { IncludeCaption = true; }
         }
     }

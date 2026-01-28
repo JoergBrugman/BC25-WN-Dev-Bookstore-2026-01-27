@@ -762,6 +762,24 @@
       </DefaultValue>
       <Prompt>Author_BSBBookCaption</Prompt>
     </ReportParameter>
+    <ReportParameter Name="AuthorProvision_BSBBookCaption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>AuthorProvision_BSBBookCaption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>AuthorProvision_BSBBookCaption</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="EditionNo_BSBBookCaption">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>EditionNo_BSBBookCaption</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>EditionNo_BSBBookCaption</Prompt>
+    </ReportParameter>
     <ReportParameter Name="NoofPages_BSBBookCaption">
       <DataType>String</DataType>
       <DefaultValue>
@@ -775,7 +793,7 @@
   <ReportParametersLayout>
     <GridLayoutDefinition>
       <NumberOfColumns>1</NumberOfColumns>
-      <NumberOfRows>6</NumberOfRows>
+      <NumberOfRows>8</NumberOfRows>
       <CellDefinitions>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
@@ -805,6 +823,16 @@
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
           <RowIndex>5</RowIndex>
+          <ParameterName>AuthorProvision_BSBBookCaption</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>6</RowIndex>
+          <ParameterName>EditionNo_BSBBookCaption</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>7</RowIndex>
           <ParameterName>NoofPages_BSBBookCaption</ParameterName>
         </CellDefinition>
       </CellDefinitions>
@@ -866,6 +894,15 @@ End Function
         </Field>
         <Field Name="Author_BSBBook">
           <DataField>Author_BSBBook</DataField>
+        </Field>
+        <Field Name="AuthorProvision_BSBBook">
+          <DataField>AuthorProvision_BSBBook</DataField>
+        </Field>
+        <Field Name="AuthorProvision_BSBBookFormat">
+          <DataField>AuthorProvision_BSBBookFormat</DataField>
+        </Field>
+        <Field Name="EditionNo_BSBBook">
+          <DataField>EditionNo_BSBBook</DataField>
         </Field>
         <Field Name="NoofPages_BSBBook">
           <DataField>NoofPages_BSBBook</DataField>
