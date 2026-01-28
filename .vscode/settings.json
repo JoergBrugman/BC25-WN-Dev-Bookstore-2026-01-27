@@ -4,7 +4,7 @@
     "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
     "CRS.ObjectNamePrefix": "BSB ",
     "CRS.OnSaveAlFileAction": "Rename",
-    "al.enableCodeAnalysis": true,
+    "al.enableCodeAnalysis": false,
     "al.codeAnalyzers": [
         "${CodeCop}",
         "${UICop}",
